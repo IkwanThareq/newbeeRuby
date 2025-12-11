@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 class Car
+  # below is the constructor for the class, special method that called when object is made
   def initialize(brand, model)
     @brand = brand
     @model = model
